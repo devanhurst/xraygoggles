@@ -1,0 +1,50 @@
+body {
+  height: 100vh;
+  margin: 0px;
+  box-sizing: content-box;
+  display: block;
+}
+
+.sky {
+  background-color: DeepSkyBlue;
+  height: 80%;
+  width: 100%;
+  display: inline-block;
+  position: relative ;
+}
+
+.sun {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#character1 {
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+
+#character2 {
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+#character3 {
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 75%;
+}
+
+.ground {
+  height: 20%;
+  width: 100%;
+  background-color: green;
+}
